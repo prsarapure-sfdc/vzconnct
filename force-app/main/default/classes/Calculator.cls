@@ -82,4 +82,5 @@ public class Calculator {
     public static Decimal areaOfRectangle(Decimal length, Decimal width) {
         return length * width;
     }
+    
 }
