@@ -74,4 +74,8 @@ public class Calculator {
     public static Decimal power(Decimal base, Decimal exponent) {
         return Math.pow(base, exponent);
     }
+
+    public static Decimal areaOfSquare(Decimal sides) {
+        return sides * sides;
+    }
 }
