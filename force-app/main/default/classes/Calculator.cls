@@ -78,4 +78,8 @@ public class Calculator {
     public static Decimal areaOfSquare(Decimal sides) {
         return sides * sides;
     }
+    
+    public static Decimal areaOfRectangle(Decimal length, Decimal width) {
+        return length * width;
+    }
 }
